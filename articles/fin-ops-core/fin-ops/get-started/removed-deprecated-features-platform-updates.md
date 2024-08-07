@@ -176,51 +176,6 @@ Migrating to SHA256 is straightforward: You need to use signature version 2 or k
 | **Status**                         | Deprecated. End of support date is targeted for 10.0.28 (PU 52), which went out of support on October 21, 2022. |
 
 
-## Feature deprecation effective August 2022
-
-### Lifecycle Services features deprecated in August 2022
-
-As part of the [One Dynamics One Platform](/dynamics365-release-plan/2022wave2/finance-operations/finance-operations-crossapp-capabilities/one-dynamics-one-platform) work effort, the following Lifecycle Services features are deprecated.
-
-| Feature name | Used with AX 2012? | Used with finance and operations apps? | Replaced by another feature? |
-|--------------|--------------------|----------------------------------------|------------------------------|
-| Announcements | Yes | Yes | Yes: Banners exist on individual project and environment pages for notifications. |
-| Configuration manager | Yes | No | No |
-| Crash and dump analysis | Yes | No | No |
-| Feedback and bugs | Yes | Yes | No |
-| My subscription | Yes | Yes | No |
-| Office 365 | Yes | Yes | Yes: Microsoft Entra ID or Microsoft admin portal. |
-| Impact analysis | No | Yes | No |
-| Total economic impact estimator | No | Yes | No |
-| Service requests | No | Yes | Yes: [Self-service deployments](../../dev-itpro/deployment/infrastructure-stack.md) |
-| SharePoint integration | Yes | Yes | No |
-| Configuration and data manager | No | Yes | No |
-| Process data packages | No | Yes | Yes: [Data Import Export Framework (DIXF)](/dynamics365/fin-ops-core/dev-itpro/data-entities/data-import-export-job) |
-| Environment upgrade | No | Yes | Yes: [One Version](../../dev-itpro/lifecycle-services/oneversion-overview.md) service updates are available. |
-| Infrastructure estimator | Yes | No | No |
-| License sizing | Yes | No | No |
-| Usage profiler | Yes | No | No |
-| Customization analysis | Yes | No | No |
-| System diagnostics | Yes | Yes | No |
-| Business process modeler Visio management | Yes | Yes | No |
-| AX 2012 cloud environment management | Yes | No | No |
-| RDFE Azure connectors | Yes | Yes | No |
-| AX 2012 versions | Yes | No | No |
-| Work items stored in Lifecycle Services storage | Yes | Yes | No |
-| Hotfix requests | Yes | Yes | No |
- 
-
-### Transport Layer Security (TLS) RSA cipher suites
-
-| &nbsp;  | &nbsp; |
-|------------|--------------------|
-| **Reason for deprecation/removal** | The following list of cipher suites is removed to comply with our current security protocols.<br><br>TLS_RSA_WITH_AES_256_GCM_SHA384<br>TLS_RSA_WITH_AES_128_GCM_SHA256<br>TLS_RSA_WITH_AES_256_CBC_SHA256<br>TLS_RSA_WITH_AES_128_CBC_SHA256<br>TLS_RSA_WITH_AES_256_CBC_SHA<br>TLS_RSA_WITH_AES_256_CBC_SHA  |
-| **Replaced by another feature?**   | Beginning January 2023, customers can only use our [standard cipher suites](/power-platform/admin/server-cipher-tls-requirements). This change impacts your clients and servers that communicate with our servers. For example, it may impact your third party integrations that aren't adhering to our standard cipher suites. |
-| **Product areas affected**         | Finance and operations apps |
-| **Deployment option**              | Cloud deployments |
-| **Status**                         | Deprecated. Customers must upgrade their servers before January 2023. For more information about configuring TLS Cipher Suite order, see [Manage Transport Layer Security (TLS)](/windows-server/security/tls/manage-tls).  |
-
-
 ## Feature deprecation effective June 2022
 
 ### Finance and operations (Dynamics 365) mobile application and mobile platform 
