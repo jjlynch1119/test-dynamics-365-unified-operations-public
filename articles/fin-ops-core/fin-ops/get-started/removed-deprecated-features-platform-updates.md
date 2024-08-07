@@ -1,7 +1,7 @@
 ---
 title: Removed or deprecated platform features
 description: Learn about features that have been removed, or that are planned for removal in platform updates of finance and operations apps.
-author: twheeloc
+author: test
 ms.author: twheeloc
 ms.topic: conceptual
 ms.custom: 
@@ -12,6 +12,15 @@ ms.search.region: Global
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
 ---
+        /  \
+       / ..|\
+      (_\  |_)
+      /  \@' 
+     /     \
+_   /  `   |
+\\/  \  | _\
+ \   /_ || \\_
+  \____)|_) \_)
 
 # Removed or deprecated platform features
 
